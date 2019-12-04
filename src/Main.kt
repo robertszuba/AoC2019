@@ -51,4 +51,9 @@ fun main(args: Array<String>) {
         "U268", "R702", "D112", "L917", "D876", "L631", "D139", "L989", "U810", "R329", "U253", "L498", "D767", "L550", "U666", "L549", "U616", "R376")
     println("Puzzle 3a "+Day3().solveA(input3a, input3b))
     println("Puzzle 3b "+Day3().solveB(input3a, input3b))
+
+    val rangeStart = 264360
+    val rangeEnd = 746325
+    println("Puzzle 4a "+Day4().solveA(rangeStart, rangeEnd))
+    println("Puzzle 4b "+Day4().solveB(rangeStart, rangeEnd))
 }
